@@ -13,6 +13,7 @@
 		
 		<link rel="stylesheet" href="css/common.css" type="text/css" />
 		<link rel="stylesheet" href="css/table.css" type="text/css" />
+	    <script src="js/recipeName.js" type="text/javascript"></script>
 			
 		<link rel="index" href="./index.html" /> 
 	</head>
@@ -21,8 +22,10 @@
 		<div id="container">
 		<p>
 			<script>
-				var recipeName = "ƒIƒ€ƒ‰ƒCƒX"
-				document.write(recipeName);
+				for(i = 0; i < recipeName.length; i++){
+					document.write(recipeName[i]);
+					document.write("<br />");
+				}
 			</script>
 		</p>
 			
