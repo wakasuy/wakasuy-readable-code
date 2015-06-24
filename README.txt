@@ -6,4 +6,4 @@
 1. jsフォルダ内にあるrecipeName.jsをテキストエディタで開く
 2. 2行目以降に「recipeName[連番] = "レシピ名";」の形式で記載
 ※ 連番は0から開始。1行に複数設定可能。
-例) recipeName[0] = "オムライス"
+例) recipeName[0] = "オムライス";recipeName[1] = "親子丼";
